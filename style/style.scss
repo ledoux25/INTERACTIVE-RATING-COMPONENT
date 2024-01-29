@@ -69,6 +69,7 @@ main{
         background-color: $DarkBlue;
         color: $LightGrey;
         cursor: pointer;
+        
     }
     .note:hover{
         background-color: hsla(39, 100%, 50%, 0.324);
@@ -101,6 +102,9 @@ main{
         .button-active{
             background-color: hsl(25, 97%, 53%);
             color: rgb(255, 255, 255);
+        }
+        .note{
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
         }
     }
 
@@ -135,5 +139,8 @@ main{
     main{
         width: 80%;
         min-width: 290px;
+        .note{
+            cursor: text;
+        }
     }
 }

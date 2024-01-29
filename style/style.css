@@ -97,6 +97,9 @@ main .sub .button-active {
   background-color: hsl(25, 97%, 53%);
   color: rgb(255, 255, 255);
 }
+main .sub .note {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
 
 .thankyou {
   display: none;
@@ -125,5 +128,8 @@ main .sub .button-active {
   main {
     width: 80%;
     min-width: 290px;
+  }
+  main .note {
+    cursor: text;
   }
 }/*# sourceMappingURL=style.css.map */
