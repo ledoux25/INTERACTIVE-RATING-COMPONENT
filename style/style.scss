@@ -27,10 +27,11 @@ body{
 main{
     background: white;
     background: linear-gradient(#1d242f 20%, #1c222b 85%);
-    width: 25%;
-    padding: 20px;
+    width: 23%;
+    padding: 25px;
+    padding-top: 28px;
     border-radius: 20px;
-    min-width: 310px;
+    min-width: 290px;
     .icon{
         width: fit-content;
         display: inline-block;
